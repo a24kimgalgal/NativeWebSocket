@@ -1,0 +1,35 @@
+# --- UNITY ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# --- IDEs (Visual Studio / VS Code / Rider) ---
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+
+# --- NODE.JS (Tu servidor) ---
+node_modules/
+package-lock.json

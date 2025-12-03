@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/menuStyle.uss?fileID=7433441132597879392&amp;guid=101aa5dc0f7c487b2bab9fc9d50217b2&amp;type=3#menuStyle" />
+    <ui:VisualElement name="root" style="flex-grow: 1;">
+        <ui:VisualElement name="ChatScreen" style="flex-grow: 1;">
+            <ui:ScrollView name="ChatHistory" style="flex-direction: column; height: 10px;" />
+            <ui:VisualElement name="InputArea" style="flex-grow: 1;">
+                <ui:TextField label="Missatge" name="MessageBtn" />
+                <ui:Button text="Enviar" name="SendBtn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Login" style="flex-grow: 1;">
+            <ui:TextField label="Nom d&apos;usuari" name="NickInput" />
+            <ui:Button text="Enviar" name="JoinBtn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
